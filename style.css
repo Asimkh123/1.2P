@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #f2f2f2;
+}
+
+.header {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #004080;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section, .section2 {
+    flex: 1;
+    width: 30%;
+    padding: 20px;
+    margin: 0 10px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.inputBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#someInput, 
+#numberInput, 
+#arrayInput, 
+#dateInput,
+#widthInput, 
+#heightInput,
+#palindromeInput, 
+#resultBox, 
+#resultBox2, 
+#resultBox3, 
+#resultBox4, 
+#areaResultBox,
+#palindromeResultBox {
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    height: 40px;
+    border: 1px solid #b15959;
+    border-radius: 4px;
+    background-color: white;
+}
+
+#resultBox, 
+#resultBox2, 
+#resultBox3, 
+#resultBox4, 
+#areaResultBox,
+#palindromeResultBox {
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.stringMethods, 
+.numberMethods, 
+.arrayMethods, 
+.dateMethods {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.methods button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.methods button:hover {
+    background-color: #ea0808;
+}
+
+.styled-button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.styled-button:hover {
+    background-color: #ddd;
+}
+
+.highlight {
+    background-color: #eded06;
+}
+
+footer {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #004080;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}

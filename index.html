@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>1.2P JAVASCRIPT</title>
+</head>
+<body>
+    <header class="header">
+        <h1>MY JAVASCRIPT CODE</h1>
+        <!-- <nav class="navContainer">
+            <ul id="navBar">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav> -->
+    </header>
+
+    <h2>JAVASCRIPT MAGIC</h2>
+
+    <main>
+        <div class="section">
+            <h3>STRING METHODS</h3>
+            <div class="userInput">
+                <div class="inputBox">
+                    <input type="text" id="someInput" name="someInput">
+                    <div id="resultBox"></div>
+                </div>
+            </div>
+            
+            <div class="stringMethods">
+                <div class="methods">
+                    <button type="button" onclick="toUpperCase()">To Upper Case</button>
+                    <button type="button" onclick="toLowerCase()">To Lower Case</button>
+                    <button type="button" onclick="toTitleCase()">To Title Case</button>
+                    <button type="button" onclick="replaceContent()">Replace Content</button>
+                    <button type="button" onclick="highlightContent()">Search and Highlight</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>NUMBER METHODS</h3>
+            <div class="userInput">
+                <div class="inputBox">
+                    <input type="text" id="numberInput" name="numberInput">
+                    <div id="resultBox2"></div>
+                </div>
+            </div>
+            
+            <div class="numberMethods">
+                <div class="methods">
+                    <button type="button" onclick="doubleNumber()">Double</button>
+                    <button type="button" onclick="halfNumber()">Half</button>
+                    <button type="button" onclick="squareNumber()">Square</button>
+                    <button type="button" onclick="squareRootNumber()">Square Root</button>
+                    <button type="button" onclick="roundNumber()">Round</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>ARRAY METHODS</h3>
+            <div class="userInput">
+                <div class="inputBox">
+                    <input type="text" id="arrayInput" name="arrayInput">
+                    <div id="resultBox3"></div>
+                </div>
+            </div>
+            
+            <div class="arrayMethods">
+                <div class="methods">
+                    <button type="button" onclick="addToArray()">Add Element</button>
+                    <button type="button" onclick="removeLast()">Remove Last Element</button>
+                    <button type="button" onclick="getArrayLength()">Get Array Length</button>
+                    <button type="button" onclick="sortArray()">Sort Array</button>
+                    <button type="button" onclick="reverseArray()">Reverse Array</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="section2">
+            <h3>DATE METHODS</h3>
+            <div class="userInput">
+                <div class="inputBox">
+                    <input type="date" id="dateInput" name="dateInput">
+                    <div id="resultBox4"></div>
+                </div>
+            </div>
+            
+            <div class="dateMethods">
+                <div class="methods">
+                    <button type="button" onclick="formatSelectedDate()">Format Date</button>
+                    <button type="button" onclick="getDay()">Get Day of Week</button>
+                    <button type="button" onclick="addDays()">Add Days</button>
+                    <button type="button" onclick="subtractDays()">Subtract Days</button>
+                    <button type="button" onclick="getMonthName()">Get Month Name</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section2">
+            <h3>FUNCTION METHODS</h3>
+            
+            <div class="userInput">
+                <div class="inputBox">
+                    <label for="widthInput">Width:</label>
+                    <input type="number" id="widthInput" name="widthInput" placeholder="Width in cms">
+                    <label for="heightInput">Height:</label>
+                    <input type="number" id="heightInput" name="heightInput" placeholder="Height in cms">
+                    <button type="button" onclick="displayArea()" class="styled-button">Calculate Area</button>
+                    <div id="areaResultBox"></div>
+                </div>
+
+                <div class="inputBox">
+                    <label for="palindromeInput">Enter Text:</label>
+                    <input type="text" id="palindromeInput" name="palindromeInput" placeholder="Type your text here...">
+                    <button type="button" onclick="checkPalindrome()" class="styled-button">Check Palindrome</button>
+                    <div id="palindromeResultBox"></div>
+                </div>
+             
+            </div>
+            
+        </div>
+        
+    </main>
+
+    <footer class="footer">
+        <p>Created by: Asim Khan</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
